@@ -1,5 +1,5 @@
 class Api::ProjectsController < ApplicationController
-  before_action :set_user, only: [:show, :update, :destroy]
+  before_action :set_project, only: [:show, :update, :destroy]
 
   # GET /projects
   # GET /projects.json
